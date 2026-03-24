@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.Charan Tharak Varma's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>K.Charan Tharak Varma</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.png" alt="Profile Picture of K.Charan Tharak Varma" width="200" height="200">
+            <p>Hello! I'm K.Charan Tharak Varma , an aspiring Web Developer. I recently discovered a passion for coding and am taking my first steps by learning HTML. I enjoy solving problems and am looking forward to bringing creative ideas to life on the web.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>Semantic Markup</li>
+                <li>Forms and Inputs</li>
+                <li>Internal Navigation</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at: <a href="mailto:ck8138@srmist.edu.in">ck8138@srmist.edu.in</a></p>
+            <form action="mailto:ck8138@srmist.edu.in" method="POST" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K.Charan Tharak Varma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
